@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.header {
+    text-align: center;
+    height: 13vh;
+    font-size: 10vh;
+    color: white;
+}
+
+.levelContainer {
+    width: 80vw;
+    height: 27vh;
+    max-width: 80vw;
+    margin: 2vh;
+    border-radius: 10px;
+    padding: 5px;
+    height: 20vh;
+}
+
+.containerHeader {
+    text-align: center;
+    font-size: 3vh;
+    margin: 0;
+}
+
+#levelOneProgress {
+    margin: 0;
+    font-size: 2vh;
+}
+
+.levelOneButton {
+    width: 39vw;
+    height: 13vh;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    display: inline-block;
+    background-color: violet;
+    border-radius: 10px;
+}
+
+#levelThreeButton {
+    margin-top: 2vh;
+    width: 78vw;
+    height: 13vh;
+    display: inline-block;
+    background-color: violet;
+    border-radius: 10px;
+}
