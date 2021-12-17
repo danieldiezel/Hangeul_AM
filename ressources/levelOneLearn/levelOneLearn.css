@@ -16,6 +16,7 @@ body {
 #koreanPart {
     height: 35vh;
     width:  80vw;
+    text-align: center;
 }
 
 
@@ -23,7 +24,6 @@ body {
     max-width: 80%;
     height: 35vh;
     object-fit: cover;
-    margin-left: 30vw;
 }
 
 #levelOneProgress {
