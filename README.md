@@ -18,4 +18,4 @@ This is the Hangeul application, for this application is HTML, CSS and JavaScrip
 ### Who do I talk to? ###
 
 * Repo owner: Daniel Diezel
-* Developers: Daniel Diezel, Ayleen Kuljis, Maike //TODO missing last name
+* Developers: Daniel Diezel, Ayleen Kuljis, Maike Roeser
