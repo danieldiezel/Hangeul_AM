@@ -24,6 +24,7 @@ body {
     max-width: 80%;
     height: 35vh;
     object-fit: cover;
+    border: 4px solid black;
 }
 
 #levelOneProgress {
