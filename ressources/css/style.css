@@ -13,7 +13,9 @@ body {
     text-align: center;
     height: 13vh;
     font-size: 10vh;
-    color: white;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline black;
 }
 
 .levelContainer {
@@ -42,7 +44,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, auto);
     display: inline-block;
-    background-color: violet;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -51,6 +53,6 @@ body {
     width: 78vw;
     height: 13vh;
     display: inline-block;
-    background-color: violet;
+    background-color: white;
     border-radius: 10px;
 }
