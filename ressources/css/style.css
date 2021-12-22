@@ -36,7 +36,7 @@ body {
     font-size: 2vh;
 }
 
-.levelOneButton {
+.levelButton {
     width: 39vw;
     height: 13vh;
     display: grid;
