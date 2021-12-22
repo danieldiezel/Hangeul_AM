@@ -12,6 +12,7 @@ body {
 .header {
     text-align: center;
     height: 13vh;
+    margin-top: 0vh;
     font-size: 10vh;
     color: black;
     font-family: 'Oswald', sans-serif;
@@ -19,12 +20,11 @@ body {
 }
 
 .levelContainer {
-    height: 27vh;
+    height: 20vh;
     max-width: 80vw;
     margin: 2vh;
     border-radius: 10px;
     padding: 5px;
-    height: 20vh;
 }
 
 .containerHeader {
@@ -39,12 +39,21 @@ body {
 }
 
 .levelButton {
-    width: 39vw;
+    width: 38vw;
     height: 13vh;
     display: grid;
     grid-template-columns: repeat(2, auto);
     display: inline-block;
     background-color: white;
+    border-radius: 10px;
+}
+
+form{
+    width: 38vw;
+    height: 13vh;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    display: inline-block;
     border-radius: 10px;
 }
 
