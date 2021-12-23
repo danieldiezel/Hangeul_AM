@@ -9,17 +9,26 @@
 </head>
 <body>
     <div id="levelTwoContainer">
-        <a id="menu" href="/index.html">Menu</a>
-        <div id="levelTwoProgress">
-            100%
+        <div id="hud">
+            <a id="menuTwoLearn" href="/index.html">Menu</a>
+            <div id="levelOneProgress">
+                <div id="progressBar">
+                    <div id="progressBarFull">
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="koreanPart">
-        <img class="image" src="images/a.jpg">
+            <img class="image" id="koreanImage" src="/ressources/levelTwoLearn/images/australien.png" alt="">
         </div>
-        <div id="germanPart" class="hide">
-            A
+        <div id="germanPart" >
+            <button id="showGerman">Show Korean Part</button>
+            <div id="germanMeaning">
+                그리스
+            </div>
         </div>
         <button id="further">Next</button>
     </div>
+    <script src="/ressources/levelTwoLearn/levelTwoScript.js"></script>
 </body>
 </html>
