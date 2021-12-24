@@ -28,7 +28,13 @@ body {
     border: 0.2rem solid rgb(11,223,36);
     margin-top: 3vh;
     border-radius: 50px;
-    overflow: hidden;
+}
+
+#progressBarFull {
+    width: 0%;
+    height: 5vh;
+    background-color: rgb(11,223,36);
+    border-radius: 50px;
 }
 
 #menuTwoLearn {

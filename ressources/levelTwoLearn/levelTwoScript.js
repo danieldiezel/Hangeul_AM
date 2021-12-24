@@ -4,12 +4,14 @@ var imagePart = document.getElementById("germanPart")
 var showGerman = document.getElementById("showGerman");
 var menu = document.getElementById("menu");
 var koreanImage = document.getElementById("koreanImage");
+var progressBarFull = document.getElementById("progressBarFull")
 var koreanPicture;
 var step;
+const maxCountries = 26;
 const score = [];
 const scoreOne = [];
 
-
+// TODO wenn spiel schon gespielt progress bar hinstellen uaf den score
 window.onload = function() {
     if (localStorage.getItem('levelTwoLearnScore') != null) {
         score.push(localStorage.getItem('levelTwoLearnScore'));
@@ -33,6 +35,7 @@ further.onclick = function() {
         score.push("1");
         localStorage.setItem('levelTwoLearnScore', score.length);
         nextCountry();
+        progressBar();
     } else {
         // TODO meldung einbauen das man das Quiz freigeschaltet hat.
         if (scoreOne.length < 25) {
@@ -46,7 +49,12 @@ further.onclick = function() {
         }
     }    
 }
-//TODO progress bar in main menu and level
+
+function progressBar() {
+    console.log(`${(score.length/maxCountries) * 100}%`);
+    document.getElementById("progressBarFull").style.width = `${(score.length/maxCountries) * 100}%`;
+}
+
 //TODO german text
 function nextCountry() {
     switch (score.length) {
