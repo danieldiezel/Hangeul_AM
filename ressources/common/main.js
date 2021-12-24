@@ -1,5 +1,9 @@
-console.log(localStorage.getItem('levelTwoLearnScore'));
+var levelTwoLearnBarScore = document.getElementById("levelTwoLearnBar");
+var levelTwoLearnPercentage
 
 window.onload = function() {
-    document.getElementById('levelTwoLearnBar').innerHTML += localStorage.getItem('levelTwoLearnScore');
+    levelTwoLearnPercentage = `${(localStorage.getItem('levelTwoLearnScore')/26) * 100}`;
+    console.log(levelTwoLearnPercentage);
+    document.getElementById("progressBarTwoLearnFull").innerHTML += Math.round(`${(localStorage.getItem('levelTwoLearnScore')/26) * 100}`) + "%" ;
+    document.getElementById('progressBarTwoLearnFull').style.width = levelTwoLearnPercentage + "%";
 }
