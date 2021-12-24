@@ -28,12 +28,19 @@ showGerman.onclick = function() {
 
 further.onclick = function() {
     further.style.display = "none";
-    score.push("1");
+    if (score.length < 25) {
+        score.push("1");
+        localStorage.setItem('levelTwoLearnScore', score.length);
+        nextCountry();
+    } else {
+        // TODO frage feld einbauen ob man mit quiz weitermachen will oder reseten des scores
+    }
     console.log(score.length);
-    nextCountry();
-    localStorage.setItem('levelTwoLearnScore', score.length);
+    
 }
-
+//TODO progress bar in main menu and level
+//TODO german text
+//TODO what if you gamed the whole learning part?
 function nextCountry() {
     switch (score.length) {
         case 0:
