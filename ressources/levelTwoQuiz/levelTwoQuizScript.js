@@ -206,8 +206,8 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -224,8 +224,8 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -242,9 +242,9 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
         case 6: {
@@ -260,9 +260,9 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
         case 8: {
@@ -278,17 +278,17 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
         case 10: {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -305,8 +305,8 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -323,17 +323,17 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
         case 15: {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -341,9 +341,9 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
         case 17: {
@@ -359,8 +359,8 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -377,17 +377,17 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
         case 21: {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -413,8 +413,8 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
-            answerTwoButton.style.border = '4px solid red';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid yellow';
             answerThreeButton.style.border = '4px solid red';
             break;
         }
@@ -431,9 +431,9 @@ function check() {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
             answerThree.style.backgroundColor = 'green';
-            answerOneButton.style.border = '4px solid yellow';
+            answerOneButton.style.border = '4px solid red';
             answerTwoButton.style.border = '4px solid red';
-            answerThreeButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid yellow';
             break;
         }
     }
