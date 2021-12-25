@@ -10,6 +10,10 @@ var quizStats = document.getElementById("quizStats");
 var end = document.getElementById("end");
 var levelTwoContainer = document.getElementById("levelTwoContainer");
 var score = document.getElementById("score");
+var totalAnswer = document.getElementById("totalAnswers");
+var wrongAnswer = document.getElementById("wrongAnswers");
+var correctAnswer = document.getElementById("correctAnswers")
+var result = document.getElementById("result");
 var step;
 var randomDelete;
 var multiplier = 26;
@@ -527,5 +531,15 @@ further.onclick = function() {
 
 end.onclick = function() {
     levelTwoContainer.style.display = "none";
+    correctAnswer.innerHTML = "Richtige Antworten: " + scoreCount.length;
+    wrongAnswer.innerHTML = "Falsche Antworten: " + (15 - scoreCount.length);
+    if (scoreCount.length > 11) {
+        result.innerHTML = "Level 2 wurde freigeschaltet!";
+        result.style.color = 'green';
+    } else {
+        result.innerHTML = "Versuchen Sie es noch einmal!"
+        result.style.color = 'red';
+    }
     quizStats.style.display = "block";
+
 }
