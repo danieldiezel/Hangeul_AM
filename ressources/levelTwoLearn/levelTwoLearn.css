@@ -84,11 +84,38 @@ body {
 }
 
 #germanMeaning {
+    border: 2px solid black;
     height: 25vh;
     width: 80vw;
+    margin-top: 5vh;
+    color: white;
     text-align: center;
-    font-size: 15vh;
-    display: none;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+#countryFlag {
+    width: 25vw;
+    height: 25vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flagImage {
+    max-width: 23vw;
+    max-height: 16vh;
+    border: 2px solid black;
+}
+
+#countryText {
+    width: fit-content;
+    block-size: fit-content;
+    height: 25vh;
+    float: right;
+    
 }
 
 #further {
