@@ -8,6 +8,7 @@ var answerTwoButton = document.getElementById("answerTwoButton");
 var answerThreeButton = document.getElementById("answerThreeButton");
 var quizStats = document.getElementById("quizStats");
 var end = document.getElementById("end");
+var countryName = document.getElementById("countryName");
 var levelTwoContainer = document.getElementById("levelTwoContainer");
 var score = document.getElementById("score");
 var totalAnswer = document.getElementById("totalAnswers");
@@ -46,156 +47,182 @@ function questions() {
     switch(getValueOfArray) {
         case 1:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/china.png";
+            countryName.innerHTML = "China";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/australien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/china.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/spanien.png";
             break;
         case 2:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/australien.png";
+            countryName.innerHTML = "Australien";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/australien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/deutschland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/japan.png";
             break;
         case 3:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/deutschland.png";
+            countryName.innerHTML = "Deutschland";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/indien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/deutschland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/england.png";
             break;
         case 4:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/england.png";
+            countryName.innerHTML = "England";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/england.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/China.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/usa.png";
             break;
         case 5:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/frankreich.png";
+            countryName.innerHTML = "Frankreich";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/schweiz.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/russland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/frankreich.png";
             break;
         case 6:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/griechenland.png";
+            countryName.innerHTML = "Griechenland";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/griechenland.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/holland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/japan.png";
             break;
         case 7:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/holland.png";
+            countryName.innerHTML = "Holland";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/griechenland.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/deutschland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/holland.png";
             break;
         case 8:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/indien.png";
+            countryName.innerHTML = "Indien";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/indien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/polen.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/korea.png";
             break;
         case 9:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/italien.png";
+            countryName.innerHTML = "Italien";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/indien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/deutschland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/italien.png";
             break;
         case 10:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/japan.png";
+            countryName.innerHTML = "Japan";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/australien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/japan.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/neuseeland.png";
             break;
         case 11:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/kanada.png";
+            countryName.innerHTML = "Kanada";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/kanada.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/korea.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/portugal.png";
             break;
         case 12:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/korea.png";
+            countryName.innerHTML = "Korea";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/griechenland.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/korea.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/china.png";
             break;
         case 13:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/mongolei.png";
+            countryName.innerHTML = "Mongolei";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/mongolei.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/norwegen.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/türkei.png";
             break;
         case 14:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/neuseeland.png";
+            countryName.innerHTML = "Neuseeland";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/australien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/deutschland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/neuseeland.png";
             break;
         case 15:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/norwegen.png";
+            countryName.innerHTML = "Norwegen";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/usa.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/norwegen.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/japan.png";
             break;
         case 16:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/österreich.png";
+            countryName.innerHTML = "Österreich";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/schweiz.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/spanien.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/österreich.png";
             break;
         case 17:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/polen.png";
+            countryName.innerHTML = "Polen";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/polen.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/portugal.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/vietnam.png";
             break;
         case 18:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/portugal.png";
+            countryName.innerHTML = "Portugal";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/australien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/portugal.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/japan.png";
             break;
         case 19:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/russland.png";
+            countryName.innerHTML = "Russland";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/russland.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/deutschland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/ungarn.png";
             break;
         case 20:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/schweden.png";
+            countryName.innerHTML = "Schweden";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/ungarn.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/schweiz.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/schweden.png";
             break;
         case 21:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/schweiz.png";
+            countryName.innerHTML = "Schweiz";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/neuseeland.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/schweiz.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/spanien.png";
             break;
         case 22:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/spanien.png";
+            countryName.innerHTML = "Spanien";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/spanien.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/griechenland.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/ungarn.png";
             break;
         case 23:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/türkei.png";
+            countryName.innerHTML = "Türkei";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/türkei.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/italien.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/england.png";
             break;
         case 24:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/ungarn.png";
+            countryName.innerHTML = "Ungarn";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/norwegen.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/ungarn.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/usa.png";
             break;
         case 25:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/usa.png";
+            countryName.innerHTML = "USA";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/usa.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/ungarn.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/russland.png";
             break;
         case 26:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/vietnam.png";
+            countryName.innerHTML = "Vietnam";
             answerOneButton.src = "/ressources/levelTwoQuiz/images/frankreich.png";
             answerTwoButton.src = "/ressources/levelTwoQuiz/images/türkei.png";
             answerThreeButton.src = "/ressources/levelTwoQuiz/images/vietnam.png";
