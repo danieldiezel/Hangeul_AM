@@ -23,6 +23,7 @@ window.onload = function() {
         for (var step = 1; step < alreadyDone; step++) {
             score.push("1");
         }
+        progressBar();
     }   
 }
 
