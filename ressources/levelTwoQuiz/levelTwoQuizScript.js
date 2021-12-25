@@ -454,7 +454,7 @@ further.onclick = function() {
     answerOne.style.backgroundColor = 'white';
     answerTwo.style.backgroundColor = 'white';
     answerThree.style.backgroundColor = 'white';
-    answerOneButton.style.border = 'none';
+    answerOneButton.style.border = '';
     answerTwoButton.style.border = '';
     answerThreeButton.style.border = '';
 }
