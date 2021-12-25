@@ -200,6 +200,14 @@ answerOne.onclick = function() {
     check();
 }
 
+answerTwo.onclick = function() {
+    check();
+}
+
+answerThree.onclick = function() {
+    check();
+}
+
 function check() {
     switch (getValueOfArray - 1) {
         case 1: {
@@ -443,4 +451,10 @@ further.onclick = function() {
     getValueOfArrayF();
     donequestions.push("1");
     questions();
+    answerOne.style.backgroundColor = 'white';
+    answerTwo.style.backgroundColor = 'white';
+    answerThree.style.backgroundColor = 'white';
+    answerOneButton.style.border = 'none';
+    answerTwoButton.style.border = '';
+    answerThreeButton.style.border = '';
 }
