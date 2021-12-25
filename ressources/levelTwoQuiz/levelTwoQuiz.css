@@ -76,8 +76,9 @@ body {
 }
 
 .answersImage{
-    max-width: 20vw;
+    width: 18vw;
     max-height: 20vh;
+    object-fit: fill;
 }
 
 /* TODO score as box and allign to center */
