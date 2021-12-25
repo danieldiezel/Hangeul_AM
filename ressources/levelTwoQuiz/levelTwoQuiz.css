@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     max-height: 10vh;
     margin-bottom: 4vh;
-    margin-top: 1vh;
+    margin-top: 3vh;
 }
 
 #menu {
@@ -111,4 +111,73 @@ body {
     margin-left: 75vw;
     border-radius: 5px;
     margin-bottom: 3vh;
+}
+
+#end {
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    width: 20vw;
+    height: 5vh;
+    background-color: orange;
+    margin-top: 4vh;
+    margin-left: 75vw;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    display: none;
+}
+
+#quizStats {
+        display: block;
+        display: none;
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        display: none;
+}
+
+#stats {
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+#scoreStatsDiv {
+    height: 5vh;
+    width: 50vw;
+}
+
+#scoreStats {
+    font-size: 50px;
+    align-self: center;
+    width: fit-content;
+    margin-left: 20vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#allStats {
+    width: 35vw;
+    height: 35vh;
+    background-color: gray;
+    border-radius: 5px;
+    margin-left: 7.5vw;
+}
+
+.answer {
+    font-size: 30px;
+    margin-left: 2vw;
+}
+
+#menuAfter {
+    width: fit-content;
+    max-height: 4vh;
+    font-size: 25px;
+    margin-bottom: 1vh;
+    margin-left: 22vw;
+    color: black;
+    text-decoration: none;
+    background-color: orange;
 }

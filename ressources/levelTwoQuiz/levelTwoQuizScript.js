@@ -6,10 +6,14 @@ var answerThree = document.getElementById("answerThree");
 var answerOneButton = document.getElementById("answerOneButton");
 var answerTwoButton = document.getElementById("answerTwoButton");
 var answerThreeButton = document.getElementById("answerThreeButton");
+var quizStats = document.getElementById("quizStats");
+var end = document.getElementById("end");
+var levelTwoContainer = document.getElementById("levelTwoContainer");
 var step;
 var randomDelete;
 var multiplier = 26;
 var shuffle;
+var scoreMax = 15;
 var getValueOfArray;
 const donequestions = [];
 const randomNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
@@ -24,7 +28,7 @@ window.onload = function() {
     getValueOfArrayF();
     questions();
     donequestions.push("1");
-    console.log(randomNumbers)
+    further.disabled = true;
 }
 
 shuffle = function(){
@@ -198,18 +202,30 @@ function getValueOfArrayF() {
 
 answerOne.onclick = function() {
     check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
 }
 
 answerTwo.onclick = function() {
     check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
 }
 
 answerThree.onclick = function() {
     check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
 }
 
 function check() {
-    switch (getValueOfArray - 1) {
+    switch (getValueOfArray) {
         case 1: {
             answerOne.style.backgroundColor = 'green';
             answerTwo.style.backgroundColor = 'green';
@@ -448,6 +464,7 @@ function check() {
 }
 
 further.onclick = function() {
+    if(donequestions.length != 14) {
     getValueOfArrayF();
     donequestions.push("1");
     questions();
@@ -457,4 +474,30 @@ further.onclick = function() {
     answerOneButton.style.border = '';
     answerTwoButton.style.border = '';
     answerThreeButton.style.border = '';
+    further.disabled = true;
+    answerOne.disabled = false;
+    answerTwo.disabled = false;
+    answerThree.disabled = false;
+    } else {
+        getValueOfArrayF();
+        donequestions.push("1");
+        questions();
+        answerOne.style.backgroundColor = 'white';
+        answerTwo.style.backgroundColor = 'white';
+        answerThree.style.backgroundColor = 'white';
+        answerOneButton.style.border = '';
+        answerTwoButton.style.border = '';
+        answerThreeButton.style.border = '';
+        further.disabled = true;
+        answerOne.disabled = false;
+        answerTwo.disabled = false;
+        answerThree.disabled = false;
+        further.style.display = "none";
+        end.style.display = "block";
+    }
+}
+
+end.onclick = function() {
+    levelTwoContainer.style.display = "none";
+    quizStats.style.display = "block";
 }
