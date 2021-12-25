@@ -9,16 +9,26 @@
 </head>
 <body>
     <div id="levelTwoContainer">
-        <button id="menu">Menu</button>
+        <div id="hud">
+            <a id="menu" href="/index.html">Menu</a>
+            <div id="levelOneProgress">
+            </div>
+        </div>
         <!--TODO images  import german Part */--> 
         <div id="germanLetter">
-            <img class="image" src="images/a.jpg">
+            <img class="image" id="countryFlag" src="/ressources/levelTwoQuiz/images/flags/australien.png">
         </div>
         <div id="koreanPossibilities">
             <div class="buttonGrid">
-                <button class="button">Answer 1</button>
-                <button class="button">Answer 2</button>
-                <button class="button">Answer 3</button>
+                <button class="button" id="answerOne">
+                    <img id="answerOneButton" class="answersImage" src="/ressources/levelTwoQuiz/images/australien.png" alt="">
+                </button>
+                <button class="button" id="answerTwo">
+                    <img id="answerTwoButton" class="answersImage" src="/ressources/levelTwoQuiz/images/deutschland.png" alt="">
+                </button>
+                <button class="button" id="answerThree">
+                    <img id="answerThreeButton" class="answersImage" src="/ressources/levelTwoQuiz/images/china.png" alt="">
+                </button>
             </div>
         </div>
         <div id="score">
@@ -26,5 +36,6 @@
         </div>
         <button id="further">Nächste Frage</button>
     </div>
+    <script src="/ressources/levelTwoQuiz/levelTwoQuizScript.js"></script>
 </body>
 </html>
