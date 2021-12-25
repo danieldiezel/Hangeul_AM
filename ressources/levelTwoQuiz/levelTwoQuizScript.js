@@ -15,7 +15,7 @@ const donequestions = [];
 const randomNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
 
 window.onload = function() {
-    for (var step = 1; step < 11; step++) {
+    for (var step = 1; step < 12; step++) {
         randomDelete = Math.round(Math.random() * multiplier);
         randomNumbers.splice(randomDelete, 1);
         multiplier = multiplier - 1;
@@ -24,6 +24,7 @@ window.onload = function() {
     getValueOfArrayF();
     questions();
     donequestions.push("1");
+    console.log(randomNumbers)
 }
 
 shuffle = function(){
@@ -33,12 +34,10 @@ shuffle = function(){
 function questions() {
     switch(getValueOfArray) {
         case 1:
-            console.log("inside")
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/china.png";
             answerOne.src = "/ressources/levelTwoQuiz/images/australien.png";
             answerTwo.src = "/ressources/levelTwoQuiz/images/china.png";
             answerThree.src = "/ressources/levelTwoQuiz/images/spanien.png";
-            console.log("insidetrought")
             break;
         case 2:
             countryFlag.src = "/ressources/levelTwoQuiz/images/flags/australien.png";
@@ -195,10 +194,253 @@ function questions() {
 
 function getValueOfArrayF() {
     getValueOfArray = randomNumbers[donequestions.length];
-    console.log(getValueOfArray)
+}
+
+answerOne.onclick = function() {
+    check();
+}
+
+function check() {
+    switch (getValueOfArray - 1) {
+        case 1: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 2: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 3: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 4: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 5: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 6: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 7: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 8: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 9: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 10: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 11: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 12: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 13: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 14: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 15: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 16: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 17: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 18: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 19: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 20: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 21: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 22: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 23: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 24: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 25: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+        case 26: {
+            answerOne.style.backgroundColor = 'green';
+            answerTwo.style.backgroundColor = 'green';
+            answerThree.style.backgroundColor = 'green';
+            answerOneButton.style.border = '4px solid yellow';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        }
+    }
 }
 
 further.onclick = function() {
     getValueOfArrayF();
     donequestions.push("1");
+    questions();
 }
