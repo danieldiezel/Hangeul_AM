@@ -68,7 +68,6 @@ function progressBar() {
 
 //TODO german text
 function nextCountry() {
-    console.log(score.length);
     switch (score.length) {
         case 0:
             koreanImage.src = '/ressources/levelTwoLearn/images/australien.png';
