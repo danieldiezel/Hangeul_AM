@@ -9,10 +9,12 @@ var answerThreeButton = document.getElementById("answerThreeButton");
 var quizStats = document.getElementById("quizStats");
 var end = document.getElementById("end");
 var levelTwoContainer = document.getElementById("levelTwoContainer");
+var score = document.getElementById("score");
 var step;
 var randomDelete;
 var multiplier = 26;
 var shuffle;
+const scoreCount = [];
 var scoreMax = 15;
 var getValueOfArray;
 const donequestions = [];
@@ -29,6 +31,7 @@ window.onload = function() {
     questions();
     donequestions.push("1");
     further.disabled = true;
+    score.innerHTML = 0  + "/ 15 current score";
 }
 
 shuffle = function(){
@@ -206,6 +209,8 @@ answerOne.onclick = function() {
     answerOne.disabled = true;
     answerTwo.disabled = true;
     answerThree.disabled = true;
+    points(1);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
 }
 
 answerTwo.onclick = function() {
@@ -214,6 +219,8 @@ answerTwo.onclick = function() {
     answerOne.disabled = true;
     answerTwo.disabled = true;
     answerThree.disabled = true;
+    points(2);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
 }
 
 answerThree.onclick = function() {
@@ -222,6 +229,27 @@ answerThree.onclick = function() {
     answerOne.disabled = true;
     answerTwo.disabled = true;
     answerThree.disabled = true;
+    points(3);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+function points(whichButton) {
+    if (whichButton == 1) {
+        if (getValueOfArray == 2 || getValueOfArray == 4 ||getValueOfArray == 6 || getValueOfArray == 8 || getValueOfArray == 11 || getValueOfArray == 13 || getValueOfArray == 17 || getValueOfArray == 19 || getValueOfArray == 22 || getValueOfArray == 23 || getValueOfArray == 25) {
+            scoreCount.push("1");
+        }
+    }
+    if (whichButton == 2) {
+        if (getValueOfArray == 1 || getValueOfArray == 3 || getValueOfArray == 10 || getValueOfArray == 12 || getValueOfArray == 15 || getValueOfArray == 18 || getValueOfArray == 21  || getValueOfArray == 24) {
+            scoreCount.push("1");
+        }
+    }
+    if (whichButton == 3) {
+        if (getValueOfArray == 5 || getValueOfArray == 7 || getValueOfArray == 9 || getValueOfArray == 14 || getValueOfArray == 16 || getValueOfArray == 20 || getValueOfArray == 26) {
+            scoreCount.push("1");
+        }
+    }
+    
 }
 
 function check() {
