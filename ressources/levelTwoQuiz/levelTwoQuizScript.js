@@ -534,12 +534,14 @@ end.onclick = function() {
     correctAnswer.innerHTML = "Richtige Antworten: " + scoreCount.length;
     wrongAnswer.innerHTML = "Falsche Antworten: " + (15 - scoreCount.length);
     if (scoreCount.length > 11) {
-        result.innerHTML = "Level 2 wurde freigeschaltet!";
+        result.innerHTML = "Level 3 wurde freigeschaltet!";
         result.style.color = 'green';
     } else {
         result.innerHTML = "Versuchen Sie es noch einmal!"
         result.style.color = 'red';
     }
     quizStats.style.display = "block";
-
+    if(localStorage.getItem('levelTwoQuizScore') > 11){
+    localStorage.setItem('levelTwoQuizScore', scoreCount.length);
+    }
 }
