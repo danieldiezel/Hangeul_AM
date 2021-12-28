@@ -6,7 +6,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -14,6 +13,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -94,6 +94,16 @@
         background-color: white;
         border-radius: 10px;
     }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
@@ -104,7 +114,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -112,6 +121,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -193,6 +203,16 @@
         background-color: white;
         border-radius: 10px;
     }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
 }
 
 @media (min-width: 800px) and (max-width: 1180px) {
@@ -203,7 +223,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -211,6 +230,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -292,6 +312,16 @@
         background-color: white;
         border-radius: 10px;
         font-size: 3vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
     }
 }
 
@@ -303,7 +333,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -311,6 +340,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -392,6 +422,16 @@
         background-color: white;
         border-radius: 10px;
         font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
     }
 }
 
@@ -404,7 +444,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -412,6 +451,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -493,6 +533,16 @@
         background-color: white;
         border-radius: 10px;
         font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
     }
 }
 
@@ -505,7 +555,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -513,6 +562,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -594,6 +644,16 @@
         background-color: white;
         border-radius: 10px;
         font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
     }
 }
 
@@ -606,7 +666,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -614,6 +673,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -696,6 +756,16 @@
         border-radius: 10px;
         font-size: 2.5vh;
     }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
 }
 
 @media (min-width: 1380px) {
@@ -706,7 +776,6 @@
         height: 100vh;
         overflow: hidden;
         justify-content: center;
-        align-items: center;
         background-color: blueviolet;
     }
     
@@ -714,6 +783,7 @@
         text-align: center;
         height: 13vh;
         margin-top: 0vh;
+        margin-bottom: 6vh;
         font-size: 10vh;
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -793,5 +863,15 @@
         display: inline-block;
         background-color: white;
         border-radius: 10px;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
     }
 }
