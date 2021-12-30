@@ -5,6 +5,7 @@ var openSettings = document.getElementById("settingsButton");
 var closeSettings = document.getElementById("closeSettingsButton");
 var settingsContainer = document.getElementById("settingsContainer");
 var normalMenu = document.getElementById("menuContainer");
+var resetScoreButton = document.getElementById("resetScoreButton");
 
 window.onload = function() {
     levelTwoLearnPercentage = `${(localStorage.getItem('levelTwoLearnScore')/25) * 100}`;
@@ -14,7 +15,6 @@ window.onload = function() {
 }
 
 openSettings.onclick = function() {
-    console.log(document.getElementById("menuContainer"))
     normalMenu.style.display = "none";
     settingsContainer.style.display = "block";
 }
@@ -22,4 +22,9 @@ openSettings.onclick = function() {
 closeSettings.onclick = function() {
     settingsContainer.style.display = "none";
     normalMenu.style.display = "block";
+}
+
+resetScoreButton.onclick = function() {
+    window.localStorage.clear();
+    location.reload();
 }
