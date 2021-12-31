@@ -149,6 +149,7 @@
         display: flex;
         justify-content: center;
         margin-top: 40vh;
+        margin-bottom: 25vh;
     }
     
     #closeSettingsButton {
@@ -309,7 +310,7 @@
     #closeSettings {
         display: flex;
         justify-content: center;
-        margin-top: 40vh;
+        margin-top: 30vh;
     }
     
     #closeSettingsButton {
@@ -454,7 +455,7 @@
 
     .textField{
         width: 30vw;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .settingsButtonDisplay {
@@ -620,7 +621,7 @@
 
     .textField{
         width: 30vw;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .settingsButtonDisplay {
@@ -632,6 +633,7 @@
     #resetScoreButton{
         margin-right: 3vw;
         background-color: grey;
+        font-size: 20px;
     }
 
     #closeSettings {
@@ -644,6 +646,7 @@
         height: 5vh;
         width: fit-content;
         background-color: gray;
+        font-size: 20px;
     }
 }
 
@@ -783,7 +786,7 @@
 
     .textField{
         width: 30vw;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .settingsButtonDisplay {
@@ -795,6 +798,8 @@
     #resetScoreButton{
         margin-right: 3vw;
         background-color: grey;
+        width: 8vw;
+        font-size: 20px;
     }
 
     #closeSettings {
@@ -805,8 +810,9 @@
     
     #closeSettingsButton {
         height: 5vh;
-        width: fit-content;
+        width: 12vw;
         background-color: gray;
+        font-size: 20px;
     }
 }
 
@@ -963,7 +969,7 @@
     #closeSettings {
         display: flex;
         justify-content: center;
-        margin-top: 40vh;
+        margin-top: 35vh;
     }
     
     #closeSettingsButton {
@@ -1269,7 +1275,7 @@
 
     .textField{
         width: 30vw;
-        font-size: 20px;
+        font-size: 50px;
     }
 
     .settingsButtonDisplay {
@@ -1281,6 +1287,7 @@
     #resetScoreButton{
         margin-right: 3vw;
         background-color: grey;
+        font-size: 20px;
     }
 
     #closeSettings {
@@ -1291,7 +1298,8 @@
     
     #closeSettingsButton {
         height: 5vh;
-        width: fit-content;
+        width: 5vw;
         background-color: gray;
+        font-size: 20px;
     }
 }
