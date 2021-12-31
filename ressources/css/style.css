@@ -104,6 +104,58 @@
         max-width: 12vw;
         max-height: 7vh;
     }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
@@ -212,6 +264,58 @@
     #settingsImage{
         max-width: 12vw;
         max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
     }
 }
 
@@ -322,6 +426,58 @@
     #settingsImage{
         max-width: 12vw;
         max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
     }
 }
 
