@@ -105,6 +105,17 @@
         max-height: 7vh;
     }
 
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
     #settingsContainer {
         display: none;
         height: 70vh;
@@ -267,6 +278,17 @@
         max-height: 7vh;
     }
 
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
     #settingsContainer {
         display: none;
         height: 70vh;
@@ -425,6 +447,17 @@
     }
 
     #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
         max-width: 12vw;
         max-height: 7vh;
     }
@@ -595,6 +628,17 @@
         max-height: 7vh;
     }
 
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
     #settingsContainer {
         display: none;
         height: 70vh;
@@ -756,6 +800,17 @@
     }
 
     #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
         max-width: 12vw;
         max-height: 7vh;
     }
@@ -926,6 +981,17 @@
         max-height: 7vh;
     }
 
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
     #settingsContainer {
         display: none;
         height: 70vh;
@@ -1089,6 +1155,17 @@
         max-height: 7vh;
     }
 
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
     #settingsContainer {
         display: none;
         height: 70vh;
@@ -1245,6 +1322,17 @@
     }
 
     #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
         max-width: 12vw;
         max-height: 7vh;
     }
