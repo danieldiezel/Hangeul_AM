@@ -168,6 +168,32 @@
         width: fit-content;
         background-color: gray;
     }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
@@ -339,6 +365,33 @@
         height: 5vh;
         width: fit-content;
         background-color: gray;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
     }
 }
 
@@ -512,6 +565,32 @@
         height: 5vh;
         width: fit-content;
         background-color: gray;
+    }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
     }
 }
 
@@ -692,6 +771,32 @@
         background-color: gray;
         font-size: 20px;
     }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
 }
 
 /* This is for iPad pro Users*/
@@ -869,6 +974,32 @@
         background-color: gray;
         font-size: 20px;
     }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
 }
 
 /* This is for Galaxy Fold Users*/
@@ -1042,6 +1173,33 @@
         height: 5vh;
         width: fit-content;
         background-color: gray;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
     }
 }
 
@@ -1217,6 +1375,33 @@
         width: fit-content;
         background-color: gray;
     }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: block;
+        align-self: none;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 1380px) {
@@ -1230,6 +1415,10 @@
         background-color: blueviolet;
     }
     
+    .menuContainer {
+        display: block;
+    }
+
     .header {
         text-align: center;
         height: 13vh;
@@ -1389,5 +1578,32 @@
         width: 5vw;
         background-color: gray;
         font-size: 20px;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
     }
 }
