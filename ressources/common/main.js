@@ -7,6 +7,9 @@ var settingsContainer = document.getElementById("settingsContainer");
 var normalMenu = document.getElementById("menuContainer");
 var resetScoreButton = document.getElementById("resetScoreButton");
 var levelTwoQuizButton = document.getElementsByName("levelTwoQuizButton");
+var explanation = document.getElementById("explanation");
+var backToMenuExplain = document.getElementById("backToMenu");
+var explainButton = document.getElementById("explainButton");
 
 window.onload = function() {
     levelTwoLearnPercentage = `${(localStorage.getItem('levelTwoLearnScore')/25) * 100}`;
@@ -34,4 +37,14 @@ closeSettings.onclick = function() {
 resetScoreButton.onclick = function() {
     window.localStorage.clear();
     location.reload();
+}
+
+explainButton.onclick = function() {
+    normalMenu.style.display = "none";
+    explanation.style.display = "block";
+}
+
+backToMenuExplain.onclick = function() {
+    normalMenu.style.display = "block";
+    explanation.style.display = "none";
 }
