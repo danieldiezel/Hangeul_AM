@@ -12,6 +12,11 @@ var backToMenuExplain = document.getElementById("backToMenu");
 var explainButton = document.getElementById("explainButton");
 
 window.onload = function() {
+    /*change to levelOneLearnScore when available*/
+    if (localStorage.getItem('levelTwoLearnScore') === null) {
+        normalMenu.style.display = "none";
+        explanation.style.display = "block";
+    }
     levelTwoLearnPercentage = `${(localStorage.getItem('levelTwoLearnScore')/25) * 100}`;
     document.getElementById("progressBarTwoLearnFull").innerHTML += Math.round(`${(localStorage.getItem('levelTwoLearnScore')/25) * 100}`) + "%" ;
     document.getElementById('progressBarTwoLearnFull').style.width = levelTwoLearnPercentage + "%";
