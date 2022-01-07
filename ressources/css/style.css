@@ -174,7 +174,7 @@
         border: 5px solid black;
         display: none;
         align-self: center;
-        font-size: 50px;
+        font-size: 25px;
     }
 
     #textField {
@@ -191,7 +191,7 @@
 
     #backToMenu {
         height: 5vh;
-        width: 8vw;
+        width: 13vw;
         font-size: 30px;
     }
 }
@@ -373,7 +373,7 @@
         border: 5px solid black;
         display: none;
         align-self: center;
-        font-size: 50px;
+        font-size: 15px;
     }
 
     #textField {
@@ -390,8 +390,8 @@
 
     #backToMenu {
         height: 5vh;
-        width: 8vw;
-        font-size: 30px;
+        width: 16vw;
+        font-size: 15px;
     }
 }
 
@@ -572,7 +572,7 @@
         border: 5px solid black;
         display: none;
         align-self: center;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     #textField {
@@ -589,7 +589,7 @@
 
     #backToMenu {
         height: 5vh;
-        width: 8vw;
+        width: 15vw;
         font-size: 30px;
     }
 }
@@ -777,7 +777,7 @@
         border: 5px solid black;
         display: none;
         align-self: center;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #textField {
@@ -980,7 +980,7 @@
         border: 5px solid black;
         display: none;
         align-self: center;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #textField {
@@ -1181,7 +1181,7 @@
         border: 5px solid black;
         display: none;
         align-self: center;
-        font-size: 50px;
+        font-size: 10px;
     }
 
     #textField {
@@ -1198,8 +1198,8 @@
 
     #backToMenu {
         height: 5vh;
-        width: 8vw;
-        font-size: 30px;
+        width: 15vw;
+        font-size: 10px;
     }
 }
 
@@ -1382,7 +1382,7 @@
         border: 5px solid black;
         display: block;
         align-self: none;
-        font-size: 50px;
+        font-size: 20px;
     }
 
     #textField {
@@ -1399,8 +1399,8 @@
 
     #backToMenu {
         height: 5vh;
-        width: 8vw;
-        font-size: 30px;
+        width: 16vw;
+        font-size: 20px;
     }
 }
 
