@@ -1,0 +1,1609 @@
+@media (min-width: 400px) and (max-width: 800px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 3vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+        margin-bottom: 25vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+    }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 25px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 13vw;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 3vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 1.7vh;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 30vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 15px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 16vw;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1180px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 4vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 3vh;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 3vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 30px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+    }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 30px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 15vw;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1180px) and (max-width: 1380px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .menuContainer {
+        display: block;
+    }
+
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 4vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5vh;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 40px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+        font-size: 20px;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+        font-size: 20px;
+    }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 40px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
+}
+
+/* This is for iPad pro Users*/
+@media (width: 1024px) and (height: 1366px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 4vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5vh;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 40px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+        width: 8vw;
+        font-size: 20px;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: 12vw;
+        background-color: gray;
+        font-size: 20px;
+    }
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 40px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
+}
+
+/* This is for Galaxy Fold Users*/
+@media (width: 280px) and (height: 653px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 4vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2vh;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 35vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 10px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 15vw;
+        font-size: 10px;
+    }
+}
+
+/* This is for iPhone X Users*/
+@media (width: 375px) and (height: 812px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 4vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2vh;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5vh;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: fit-content;
+        background-color: gray;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: block;
+        align-self: none;
+        font-size: 20px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 16vw;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1380px) {
+    body {
+        display: flex;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+    
+    .menuContainer {
+        display: block;
+    }
+
+    .header {
+        text-align: center;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-bottom: 6vh;
+        font-size: 10vh;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: underline black;
+    }
+    
+    .levelContainer {
+        height: 20vh;
+        max-width: 80vw;
+        margin: 2vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .containerHeader {
+        text-align: center;
+        font-size: 3vh;
+        margin: 0;
+    }
+    
+    .levelProgress {
+        font-size: 2vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    #levelOneLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarOneLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    #levelTwoLearnBar {
+        width: 30vw;
+        border: 2px solid black;
+        margin-left: 5vw;
+    }
+    
+    #progressBarTwoLearnFull {
+        width: 0%;
+        height: 100%;
+        background-color: rgb(11,223,36);
+    }
+    
+    .levelButton {
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 39vw;
+        height: 13vh;
+        display: inline-block;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .progressBarThree {
+        width: 30vw;
+        background-color: green;
+        border: 2px solid black;
+        margin-left: 25vw;
+    }
+    
+    #levelThreeButton {
+        width: 78vw;
+        height: 13vh;
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    #settingsButton {
+        background-color: blueviolet;
+        margin-left: 3vh;
+    }
+
+    #settingsImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #explainButton {
+        background-color: blueviolet;
+        float: right;
+        margin-right: 3vh;
+    }
+
+    #explainImage{
+        max-width: 12vw;
+        max-height: 7vh;
+    }
+
+    #settingsContainer {
+        display: none;
+        height: 70vh;
+        width: 60vw;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    #header {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #textHeader {
+        border-bottom: 2px solid black;
+    }
+
+    #settingPossibilities {
+        display: grid;
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    .textField{
+        width: 30vw;
+        font-size: 50px;
+    }
+
+    .settingsButtonDisplay {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #resetScoreButton{
+        margin-right: 3vw;
+        background-color: grey;
+        font-size: 20px;
+    }
+
+    #closeSettings {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+    
+    #closeSettingsButton {
+        height: 5vh;
+        width: 5vw;
+        background-color: gray;
+        font-size: 20px;
+    }
+
+    #explanation {
+        height: 70vh;
+        width: 70vw;
+        border: 5px solid black;
+        display: none;
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #textField {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #buttonMenuCont {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #backToMenu {
+        height: 5vh;
+        width: 8vw;
+        font-size: 30px;
+    }
+}

@@ -4,10 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hangeul</title>
     <link rel="stylesheet" href="ressources/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="menuContainer" id="menuContainer">
+        <h1 class="header">Hangeul</h1>
+        <div class="levelContainer">
+            <h2 class="containerHeader">Level 1</h2>
+            <div class="levelProgress">
+                 <div id="levelOneLearnBar">
+                    <div id="progressBarOneLearnFull">
+                        1
+                    </div>
+                 </div>
+            </div>
+            <form action="/ressources/levelOneLearn/levelOneLearn.html">
+                <button class="levelButton" class="learnButton">Lerne das Alphabet</button>
+            </form>
+            <form action="/ressources/levelOneQuiz/levelOneQuiz.html">
+                <button class="levelButton" class="quizButton">Quizze das Alphabet</button>
+            </form>
+        </div>
+        <div class="levelContainer">
+            <h2 class="containerHeader">Level 2</h2>
+            <div class="levelProgress">
+                 <div id="levelTwoLearnBar">
+                    <div id="progressBarTwoLearnFull">
+                    </div>
+                </div>
+            </div>
+            <form action="/ressources/levelTwoLearn/levelTwoLearn.html">
+              <button class="levelButton" class="learnButton">Lerne Länder kennen</button>  
+            </form>
+            <form name="levelTwoQuizButton">
+                <button class="levelButton" class="quizButton" id="levelTwoQuizButtonNotAvailable">Quizze die Objekte</button>
+            </form>
+        </div>
+        <div class="levelContainer">
+            <h2 class="containerHeader">Level 3</h2>
+            <div id="levelTwoQuizBar" class="progressBarThree">100%</div>
+            <button id="levelThreeButton" class="quizButton">Quizze das Alphabet</button>
+        </div>
+        <div id="rest">
+            <div id="settings">
+                <button id="settingsButton">
+                    <img id="settingsImage" src="/ressources/images/Settings-64.png" alt="">
+                </button>
+                <button id="explainButton">
+                    <img id="explainImage" src="/ressources/images/searchIcon.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="settingsContainer">
+        <div id="header">
+            <h1 id="textHeader">Settings</h1>
+        </div>
+        <div id="settingPossibilities">
+            <div class="textField">
+                Click to Reset all Scores:
+            </div>
+            <div id="resetScore" class="settingsButtonDisplay">
+                <button id="resetScoreButton">
+                    Reset
+                </button>
+            </div>
+        </div>
+        <div id="closeSettings">
+            <button id="closeSettingsButton">Close</button>
+        </div>
+    </div>
+    <div id="explanation">
+        <div id="textField">
+            Zu Beachten:<br>
+            -es wird die "offizielle Romanisierung" benutzt <br>
+            <br>
+            -entspricht nicht 100% der deutschen Sprache <br>
+            <br>
+            -die Romanisierung ist alleine nicht geeignet, <br>
+             um die Ausprache zu lernen <br>
+             <br>
+            -Regeln der Aussprache werden nicht aufgeführt <br> 
+        </div>
+        <div id="buttonMenuCont">
+            <button id="backToMenu">Menu</button>
+        </div>
+    </div>
     <script src="ressources/common/main.js"></script>
 </body>
 </html>
