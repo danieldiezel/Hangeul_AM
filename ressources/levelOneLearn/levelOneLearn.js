@@ -5,6 +5,7 @@ var germanMeaning = document.getElementById("germanMeaning");
 var germanImage = document.getElementById("germanImage");
 var soundButton = document.getElementById("soundButton");
 var koreanImage = document.getElementById("koreanImage");
+var showGermanOne = document.getElementById("showGermanOne");
 var audioEins = new Audio("/ressources/levelOneLearn/images/korean/vowals/oral/s1.mp3");
 var audioZwei = new Audio("/ressources/levelOneLearn/images/korean/vowals/oral/s2.mp3");
 var audioDrei = new Audio("/ressources/levelOneLearn/images/korean/vowals/oral/s3.mp3");
@@ -72,6 +73,12 @@ showGerman.onclick = function() {
     further.style.display = "block";
 }
 
+showGermanOne.onclick = function() {
+    clickForGerman.style.display = "none";
+    germanMeaning.style.display = "flex";
+    further.style.display = "block";
+}
+
 function progressBar() {
     document.getElementById("progressBarFull").style.width = `${(score.length/maxLetters) * 100}%`;
 }
@@ -82,18 +89,18 @@ further.onclick = function() {
     if (score.length < 39) {
         score.push("1");
         localStorage.setItem('levelOneLearnScore', score.length);
-        clickForGerman.style.display = "block";
+        clickForGerman.style.display = "flex";
         nextLetter();
         progressBar();
     } else {
         if (scoreOne.length < 39) {
             nextLetterTwo();
             scoreOne.push("1");
-            clickForGerman.style.display = "block";
+            clickForGerman.style.display = "flex";
         } else {
             scoreOne.length = 0;
             nextLetterTwo();
-            clickForGerman.style.display = "block";
+            clickForGerman.style.display = "flex";
         }
     }
 }

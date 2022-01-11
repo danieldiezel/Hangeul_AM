@@ -85,14 +85,19 @@ body {
     color: white;
     text-align: center;
     background-color: white;
-    display: block;
+    display: flex;
 }
 
-#showGerman {
-    width: 80vw;
+.showGermanImage {
+    height: 24vh;
+}
+
+.showGerman {
+    width: 40vw;
     height: 25vh;
     text-align: center;
     font-size: 6vw;
+    background-color: white;
 }
 
 #germanMeaning {
