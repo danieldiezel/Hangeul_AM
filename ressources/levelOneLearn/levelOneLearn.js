@@ -46,6 +46,9 @@ var audioSiebenunddreisig = new Audio("/ressources/levelOneLearn/images/korean/d
 var audioAchtunddreisig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/vocal/s38.mp3");
 var audioNeununddreisig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/vocal/s39.mp3");
 var audioVierzig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/vocal/s40.mp3");
+var newLevelReached = document.getElementById("newLevel");
+var levelOneContainer = document.getElementById("levelOneContainer");
+var closeNewLevel = document.getElementById("closeNewLevel");
 var step;
 const score = [];
 const scoreOne = [];
@@ -103,6 +106,16 @@ further.onclick = function() {
             clickForGerman.style.display = "flex";
         }
     }
+    if (score.length === 39 && localStorage.getItem('levelOneQuizDisplayed') === null) {
+        levelOneContainer.style.display = "none";
+        newLevelReached.style.display = "block";
+        localStorage.setItem('levelOneQuizDisplayed', "displayed")
+    }
+}
+
+closeNewLevel.onclick = function() {
+    levelOneContainer.style.display = "block";
+    newLevelReached.style.display = "none";
 }
 
 function nextLetter() {
