@@ -85,7 +85,7 @@ body {
     color: white;
     text-align: center;
     background-color: white;
-    display: none;
+    display: block;
 }
 
 #showGerman {
@@ -101,7 +101,7 @@ body {
     margin-top: 5vh;
     color: white;
     text-align: center;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: white;
