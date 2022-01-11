@@ -29,6 +29,22 @@ var audioEinundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/cons
 var audioZweiundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/consonants/voice/s22.mp3");
 var audioDreiundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/consonants/voice/s23.mp3");
 var audioVierundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/consonants/voice/s24.mp3");
+var audioFuenfundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s25.mp3");
+var audioSechsundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s26.mp3");
+var audioSiebenundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s27.mp3");
+var audioAchtundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s28.mp3");
+var audioNeunundzwanzig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s29.mp3");
+var audioDreisig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s30.mp3");
+var audioEinunddreisig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s31.mp3");
+var audioZweiunddreisig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s32.mp3");
+var audioDreiunddreisig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s33.mp3");
+var audioVierunddreisig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s34.mp3");
+var audioFuenfunddreisig = new Audio("/ressources/levelOneLearn/images/korean/compoundVowels/voice/s35.mp3");
+var audioSechsunddreisig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/voice/s36.mp3");
+var audioSiebenunddreisig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/voice/s37.mp3");
+var audioAchtunddreisig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/voice/s38.mp3");
+var audioNeununddreisig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/voice/s39.mp3");
+var audioVierzig = new Audio("/ressources/levelOneLearn/images/korean/doubleConsonants/voice/s40.mp3");
 const score = [];
 
 window.onload = function() {
@@ -207,11 +223,115 @@ function nextLetter() {
             }
             break;
         case 24:
-            koreanImage.src = '/ressources/levelOneLearn/images/korean/consonants/Alphabet13.png';
-            germanImage.src = '/ressources/levelOneLearn/images/korean/consonants/german/13.png';
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet25.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/25.png';
             soundButton.onclick = function() {
-                    audioDreizehn.play();
+                    audioFuenfundzwanzig.play();
             }
             break;
-        }
+        case 25:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet26.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/26.png';
+            soundButton.onclick = function() {
+                    audioSechsundzwanzig.play();
+            }
+            break;
+        case 26:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet27.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/27.png';
+            soundButton.onclick = function() {
+                    audioSiebenundzwanzig.play();
+            }
+            break;
+        case 27:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet28.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/28.png';
+            soundButton.onclick = function() {
+                    audioAchtundzwanzig.play();
+            }
+            break;
+        case 28:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet29.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/29.png';
+            soundButton.onclick = function() {
+                    audioNeunundzwanzig.play();
+            }
+            break;
+        case 29:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet30.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/30.png';
+            soundButton.onclick = function() {
+                    audioDreisig.play();
+            }
+            break;    
+        case 30:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet31.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/31.png';
+            soundButton.onclick = function() {
+                    audioEinunddreisig.play();
+            }
+            break;
+        case 31:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet32.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/32.png';
+            soundButton.onclick = function() {
+                    audioZweiunddreisig.play();
+            }
+            break;
+        case 32:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet33.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/33.png';
+            soundButton.onclick = function() {
+                    audioDreiunddreisig.play();
+            }
+            break;
+        case 33:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet34.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/34.png';
+            soundButton.onclick = function() {
+                    audioVierunddreisig.play();
+            }
+            break;
+        case 34:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet35.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/35.png';
+            soundButton.onclick = function() {
+                    audioFuenfunddreisig.play();
+            }
+            break;
+        case 35:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet36.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/36.png';
+            soundButton.onclick = function() {
+                audioSechsunddreisig.play();
+            }
+            break;
+        case 36:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet37.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/37.png';
+            soundButton.onclick = function() {
+                    audioSiebenunddreisig.play();
+            }
+            break;
+        case 37:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet38.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/38.png';
+            soundButton.onclick = function() {
+                    audioAchtunddreisig.play();
+            }
+            break;
+        case 38:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet39.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/39.png';
+            soundButton.onclick = function() {
+                    audioNeununddreisig.play();
+            }
+            break;
+        case 39:
+            koreanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/Alphabet40.png';
+            germanImage.src = '/ressources/levelOneLearn/images/korean/compoundVowels/german/40.png';
+            soundButton.onclick = function() {
+                    audioVierzig.play();
+            }
+            break;
 }
