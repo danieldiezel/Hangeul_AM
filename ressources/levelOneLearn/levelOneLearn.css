@@ -121,6 +121,8 @@ body {
 }
 
 #soundButton {
+    height: 10vh;
+    width: 10vw;
     margin-top: 8vh;
 }
 
