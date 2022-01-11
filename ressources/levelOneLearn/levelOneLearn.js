@@ -334,4 +334,5 @@ function nextLetter() {
                     audioVierzig.play();
             }
             break;
+        }
 }
