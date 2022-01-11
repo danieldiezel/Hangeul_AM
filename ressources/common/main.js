@@ -12,6 +12,7 @@ var levelTwoQuizButton = document.getElementsByName("levelTwoQuizButton");
 var explanation = document.getElementById("explanation");
 var backToMenuExplain = document.getElementById("backToMenu");
 var explainButton = document.getElementById("explainButton");
+var levelOneQuizButton = document.getElementById("levelOneQuizButton");
 
 window.onload = function() {
     if (localStorage.getItem('levelOneLearnScore') === null) {
@@ -24,6 +25,12 @@ window.onload = function() {
     levelTwoLearnPercentage = `${(localStorage.getItem('levelTwoLearnScore')/25) * 100}`;
     document.getElementById("progressBarTwoLearnFull").innerHTML += Math.round(`${(localStorage.getItem('levelTwoLearnScore')/25) * 100}`) + "%" ;
     document.getElementById('progressBarTwoLearnFull').style.width = levelTwoLearnPercentage + "%";
+    levelOneLearnScore = localStorage.getItem('levelOneLearnScore');
+    if (levelOneLearnPercentage != 100) {
+        document.levelOneQuizButton.action = "javascript:void(0)";
+    } else {
+        document.levelOneQuizButton.action = "/ressources/levelOneQuiz/levelOneQuiz.html";
+    }
     levelTwoQuizScore = localStorage.getItem('levelTwoQuizScore');
     if (levelTwoLearnPercentage != 100) {
         document.levelTwoQuizButton.action = "javascript:void(0)";
