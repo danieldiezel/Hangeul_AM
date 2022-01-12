@@ -102,87 +102,153 @@ function questions() {
             break;
         case 11:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/11.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet11';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet13';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet11.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet13.png';
             break;  
         case 12:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/12.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet13';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet13.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15.png';
             break;
         case 13:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/13.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet16';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet13';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet16.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet13.png';
             break; 
         case 14:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/14.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet14';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet16';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet14.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet16.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18.png';
             break;  
         case 15:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/15.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet19';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet19.png';
             break;
         case 16:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/16.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet23';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet16';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet23.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet16.png';
             break; 
         case 17:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/17.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet17';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet17.png';
             break;  
         case 18:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/18.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet21';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet21.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet12.png';
             break;
         case 19:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/19.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet20';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet22';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet19';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet20.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet22.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet19.png';
             break;
         case 20:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/20.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet20';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet20.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet18.png';
             break;  
         case 21:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/21.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet17';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet14';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet21';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet17.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet14.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet21.png';
             break;
         case 22:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/22.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet22';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet21';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet22.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet21.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24.png';
             break;
         case 23:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/23.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet23';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet22';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet23.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet22.png';
             break;  
         case 24:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/consonants/german/24.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet17';
-            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15';
-            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet17.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet15.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/consonants/Alphabet24.png';
             break;
-    }
+        case 25:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/25.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet25.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet26.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet27.png';
+            break;  
+        case 26:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/26.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet25.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet26.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet27.png';
+            break;  
+        case 27:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/27.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet25.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet26.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet27.png';
+            break;
+        case 28:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/28.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet30.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet28.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet34.png';
+            break;  
+        case 29:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/29.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet29.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet26.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet31.png';
+            break;  
+        case 30:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/30.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet31.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet30.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet33.png';
+            break;
+        case 31:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/31.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet33.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet35.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet31.png';
+            break;  
+        case 32:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/32.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet30.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet26.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet32.png';
+            break;  
+        case 33:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/33.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet30.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet31.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet33.png';
+            break;
+        case 34:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/34.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet35.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet34.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet31.png';
+            break;  
+        case 35:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/german/35.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet34.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet30.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet35.png';
+            break;
+        }
 }
