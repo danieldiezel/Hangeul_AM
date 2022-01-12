@@ -334,3 +334,328 @@ function points(whichButton) {
     }
     
 }
+
+function check() {
+    switch (getValueOfArray) {
+        case 1: 
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 2: 
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 3:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 4:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 5:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 6:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 7:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 8:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 9:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 10:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 11:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 12:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 13:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 14:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 15:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 16:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 17:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 18:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 19:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 20:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 21:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 22:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 23:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 24:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 25:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 26:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 27:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 28:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 29:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 30:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 31:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 32:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 33:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 34:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 35:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 36:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid green';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+        case 37:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 38:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 39:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid red';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid green';
+            break;
+        case 40:
+            answerOne.style.backgroundColor = 'yellow';
+            answerTwo.style.backgroundColor = 'yellow';
+            answerThree.style.backgroundColor = 'yellow';
+            answerOneButton.style.border = '4px solid green';
+            answerTwoButton.style.border = '4px solid red';
+            answerThreeButton.style.border = '4px solid red';
+            break;
+    }
+}
