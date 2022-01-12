@@ -10,6 +10,9 @@ var result = document.getElementById("result");
 var furtherButton = document.getElementById("further");
 var endButton = document.getElementById("end");
 var score = document.getElementById("score");
+var answerOne = document.getElementById("answerOne");
+var answerTwo = document.getElementById("answerTwo");
+var answerThree = document.getElementById("answerThree");
 const donequestions = [];
 const randomNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40];
 var step;
@@ -26,7 +29,6 @@ window.onload = function() {
         randomNumbers.splice(randomDelete, 1);
         multiplier = multiplier - 1;
     }
-    randomNumbers.sort(shuffle);
     getValueOfArrayF();
     questions();
     donequestions.push("1");
@@ -281,4 +283,54 @@ function questions() {
             answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet39.png';
             break;
         }
+}
+
+answerOne.onclick = function() {
+    check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
+    points(1);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+answerTwo.onclick = function() {
+    check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
+    points(2);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+answerThree.onclick = function() {
+    check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
+    points(3);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+
+function points(whichButton) {
+    if (whichButton == 1) {
+        if (getValueOfArray == 1 || getValueOfArray == 3 || getValueOfArray == 5 || getValueOfArray == 8 || getValueOfArray == 11 || getValueOfArray == 14 || getValueOfArray == 18 || getValueOfArray == 20 || getValueOfArray == 22 || getValueOfArray == 23 || getValueOfArray == 25 || getValueOfArray == 29 || getValueOfArray == 40) {
+            scoreCount.push("1");
+        }
+    }
+    if (whichButton == 2) {
+        if (getValueOfArray == 2 || getValueOfArray == 7 || getValueOfArray == 9 || getValueOfArray == 10 || getValueOfArray == 12 || getValueOfArray == 15 || getValueOfArray == 26  || getValueOfArray == 28 || getValueOfArray == 30 || getValueOfArray == 34 || getValueOfArray == 36) {
+            scoreCount.push("1");
+        }
+    }
+    if (whichButton == 3) {
+        if (getValueOfArray == 4 || getValueOfArray == 6 || getValueOfArray == 13 || getValueOfArray == 16 || getValueOfArray == 17 || getValueOfArray == 19 || getValueOfArray == 21 || getValueOfArray == 24 || getValueOfArray == 27 || getValueOfArray == 31 || getValueOfArray == 32 || getValueOfArray == 33 || getValueOfArray == 35 || getValueOfArray == 37 || getValueOfArray == 38 || getValueOfArray == 39) {
+            scoreCount.push("1");
+        }
+    }
+    
 }
