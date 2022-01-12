@@ -4,8 +4,8 @@ var answerTwoButton = document.getElementById("answerTwoButton");
 var answerThreeButton = document.getElementById("answerThreeButton");
 var levelContainer = document.getElementById("levelOneContainer");
 var quizStats = document.getElementById("quizStats");
-var correctAnswerStats = document.getElementById("correctAnswers");
-var wrongAnswerStats = document.getElementById("wrongAnswers");
+var correctAnswer = document.getElementById("correctAnswers");
+var wrongAnswer = document.getElementById("wrongAnswers");
 var result = document.getElementById("result");
 var furtherButton = document.getElementById("further");
 var endButton = document.getElementById("end");
@@ -29,6 +29,7 @@ window.onload = function() {
         randomNumbers.splice(randomDelete, 1);
         multiplier = multiplier - 1;
     }
+    randomNumbers.sort(shuffle);
     getValueOfArrayF();
     questions();
     donequestions.push("1");
@@ -272,7 +273,7 @@ function questions() {
             break;
         case 39:
             germanImage.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/german/39.png';
-            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet46.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet36.png';
             answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet38.png';
             answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet39.png';
             break;
@@ -657,5 +658,56 @@ function check() {
             answerTwoButton.style.border = '4px solid red';
             answerThreeButton.style.border = '4px solid red';
             break;
+    }
+}
+
+further.onclick = function() {
+    if(donequestions.length != 14) {
+    getValueOfArrayF();
+    donequestions.push("1");
+    questions();
+    answerOne.style.backgroundColor = 'white';
+    answerTwo.style.backgroundColor = 'white';
+    answerThree.style.backgroundColor = 'white';
+    answerOneButton.style.border = '';
+    answerTwoButton.style.border = '';
+    answerThreeButton.style.border = '';
+    further.disabled = true;
+    answerOne.disabled = false;
+    answerTwo.disabled = false;
+    answerThree.disabled = false;
+    } else {
+        getValueOfArrayF();
+        donequestions.push("1");
+        questions();
+        answerOne.style.backgroundColor = 'white';
+        answerTwo.style.backgroundColor = 'white';
+        answerThree.style.backgroundColor = 'white';
+        answerOneButton.style.border = '';
+        answerTwoButton.style.border = '';
+        answerThreeButton.style.border = '';
+        further.disabled = true;
+        answerOne.disabled = false;
+        answerTwo.disabled = false;
+        answerThree.disabled = false;
+        further.style.display = "none";
+        end.style.display = "block";
+    }
+}
+
+end.onclick = function() {
+    levelContainer.style.display = "none";
+    correctAnswer.innerHTML = "Richtige Antworten: " + scoreCount.length;
+    wrongAnswer.innerHTML = "Falsche Antworten: " + (15 - scoreCount.length);
+    if (scoreCount.length > 11) {
+        result.innerHTML = "Level 3 wurde freigeschaltet!";
+        result.style.color = 'green';
+    } else {
+        result.innerHTML = "Versuchen Sie es noch einmal!"
+        result.style.color = 'red';
+    }
+    quizStats.style.display = "flex";
+    if(localStorage.getItem('levelOneQuizScore') > 11){
+    localStorage.setItem('levelOneQuizScore', scoreCount.length);
     }
 }
