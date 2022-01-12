@@ -250,5 +250,35 @@ function questions() {
             answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet30.png';
             answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/compoundVowels/Alphabet35.png';
             break;
+        case 36:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/german/36.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet40.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet36.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet39.png';
+            break;
+        case 37:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/german/37.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet38.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet36.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet37.png';
+            break;
+        case 38:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/german/38.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet37.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet36.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet38.png';
+            break;
+        case 39:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/german/39.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet46.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet38.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet39.png';
+            break;
+        case 40:
+            germanImage.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/german/40.png';
+            answerOneButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet40.png';
+            answerTwoButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet36.png';
+            answerThreeButton.src = '/ressources/levelOneQuiz/images/korean/doubleConsonants/Alphabet39.png';
+            break;
         }
 }
