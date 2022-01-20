@@ -1,4 +1,4 @@
-var levelOneContainer = document.getElementById("levelOneContainer");
+var levelContainer = document.getElementById("levelThreeContainer");
 var questionImage = document.getElementById("germanImage");
 var infoText = document.getElementById("infoText");
 var answerOneImage = document.getElementById("answerOneButton");
@@ -191,9 +191,9 @@ function questions() {
 answerOneButton.onclick = function() {
     check();
     further.disabled = false;
-    answerOne.disabled = true;
-    answerTwo.disabled = true;
-    answerThree.disabled = true;
+    answerOneButton.disabled = true;
+    answerTwoButton.disabled = true;
+    answerThreeButton.disabled = true;
     points(1);
     score.innerHTML = scoreCount.length + "/ 15 current score";
 }
@@ -201,9 +201,9 @@ answerOneButton.onclick = function() {
 answerTwoButton.onclick = function() {
     check();
     further.disabled = false;
-    answerOne.disabled = true;
-    answerTwo.disabled = true;
-    answerThree.disabled = true;
+    answerOneButton.disabled = true;
+    answerTwoButton.disabled = true;
+    answerThreeButton.disabled = true;
     points(2);
     score.innerHTML = scoreCount.length + "/ 15 current score";
 }
@@ -211,9 +211,9 @@ answerTwoButton.onclick = function() {
 answerThreeButton.onclick = function() {
     check();
     further.disabled = false;
-    answerOne.disabled = true;
-    answerTwo.disabled = true;
-    answerThree.disabled = true;
+    answerOneButton.disabled = true;
+    answerTwoButton.disabled = true;
+    answerThreeButton.disabled = true;
     points(3);
     score.innerHTML = scoreCount.length + "/ 15 current score";
 }
@@ -399,5 +399,56 @@ function check() {
             answerTwoImage.style.border = "4px solid green";
             answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
             break;
+    }
+}
+
+further.onclick = function() {
+    if(donequestions.length != 14) {
+    getValueOfArrayF();
+    donequestions.push("1");
+    questions();
+    answerOneButton.style.backgroundColor = 'white';
+    answerTwoButton.style.backgroundColor = 'white';
+    answerThreeButton.style.backgroundColor = 'white';
+    answerOneImage.style.border = '';
+    answerTwoImage.style.border = '';
+    answerThreeImage.style.border = '';
+    further.disabled = true;
+    answerOneButton.disabled = false;
+    answerTwoButton.disabled = false;
+    answerThreeButton.disabled = false;
+    } else {
+        getValueOfArrayF();
+        donequestions.push("1");
+        questions();
+        answerOneButton.style.backgroundColor = 'white';
+        answerTwoButton.style.backgroundColor = 'white';
+        answerThreeButton.style.backgroundColor = 'white';
+        answerOneImage.style.border = '';
+        answerTwoImage.style.border = '';
+        answerThreeImage.style.border = '';
+        further.disabled = true;
+        answerOne.disabled = false;
+        answerTwo.disabled = false;
+        answerThree.disabled = false;
+        further.style.display = "none";
+        end.style.display = "block";
+    }
+}
+
+end.onclick = function() {
+    levelContainer.style.display = "none";
+    correctAnswers.innerHTML = "Richtige Antworten: " + scoreCount.length;
+    wrongAnswers.innerHTML = "Falsche Antworten: " + (15 - scoreCount.length);
+    if (scoreCount.length > 11) {
+        result.innerHTML = "Anfänger App durchgespielt! Fortgeschrittenen App folgt!";
+        result.style.color = 'green';
+    } else {
+        result.innerHTML = "Versuchen Sie es noch einmal!"
+        result.style.color = 'red';
+    }
+    quizStats.style.display = "block";
+    if(localStorage.getItem('levelTwoQuizScore') > 11){
+    localStorage.setItem('levelTwoQuizScore', scoreCount.length);
     }
 }
