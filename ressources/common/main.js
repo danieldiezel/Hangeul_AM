@@ -1,7 +1,8 @@
 var levelOneLearnBarScore = document.getElementById("levelOneLearnBar");
 var levelOneLearnPercentage;
 var levelTwoLearnBarScore = document.getElementById("levelTwoLearnBar");
-var levelTwoLearnPercentage
+var levelTwoLearnPercentage;
+var levelTwoQuizPercentage;
 var levelTwoQuizScore;
 var levelOneQuizScore;
 var openSettings = document.getElementById("settingsButton");
@@ -15,6 +16,7 @@ var backToMenuExplain = document.getElementById("backToMenu");
 var explainButton = document.getElementById("explainButton");
 var levelOneQuizButton = document.getElementById("levelOneQuizButton");
 var levelTwoLearnButton = document.getElementById("levelTwoLearnButton");
+var levelThreeQuizButton = document.getElementById("levelThreeQuizButton")
 
 window.onload = function() {
     if (localStorage.getItem('levelOneLearnScore') === null) {
@@ -35,7 +37,7 @@ window.onload = function() {
     }
 
     levelOneQuizScore = localStorage.getItem('levelOneQuizScore');
-    if (levelOneQuizScore > 12) {
+    if (levelOneQuizScore > 11) {
         document.levelTwoLearnButton.action = "/ressources/levelTwoLearn/levelTwoLearn.html";
     } else {
         document.levelTwoLearnButton.action = "javascript:void(0)";
@@ -47,7 +49,12 @@ window.onload = function() {
     } else {
         document.levelTwoQuizButton.action = "/ressources/levelTwoQuiz/levelTwoQuiz.html";
     }
-    
+    levelTwoQuizScore = localStorage.getItem('levelTwoQuizScore');
+    if (levelTwoQuizScore > 11) {
+        document.levelThreeQuizButton.action = "/ressources/levelThreeQuiz/levelThreeQuiz.html";
+    } else {
+        document.levelThreeQuizButton.action = "javascript:void(0)"
+    }
 }
 
 openSettings.onclick = function() {
