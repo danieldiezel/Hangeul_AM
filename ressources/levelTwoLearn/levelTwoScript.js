@@ -16,7 +16,6 @@ const maxCountries = 25;
 const score = [];
 const scoreOne = [];
 
-// TODO wenn spiel schon gespielt progress bar hinstellen uaf den score
 window.onload = function() {
     further.style.display = "none";
     germanMeaning.style.display = "none";
@@ -49,7 +48,6 @@ further.onclick = function() {
         nextCountry();
         progressBar();
     } else {
-        // TODO meldung einbauen das man das Quiz freigeschaltet hat.
         if (scoreOne.length < 25) {
             nextCountryTwo();
             scoreOne.push("1");
@@ -66,15 +64,13 @@ function progressBar() {
     document.getElementById("progressBarFull").style.width = `${(score.length/maxCountries) * 100}%`;
 }
 
-//TODO german text
 function nextCountry() {
     switch (score.length) {
         case 0:
             koreanImage.src = '/ressources/levelTwoLearn/images/australien.png';
             flagCountry.src = '/ressources/levelTwoLearn/images/flags/australien.png';
-            speakingVersion.innerHTML = "neuseeland"
+            speakingVersion.innerHTML = "Australien"
             countryText.innerHTML = "Australien";
-            console.log("aust")
             break;
         case 1:
             koreanImage.src = '/ressources/levelTwoLearn/images/china.png';
@@ -230,14 +226,12 @@ function nextCountry() {
 }
 
 function nextCountryTwo() {
-    console.log(scoreOne.length);
     switch (scoreOne.length) {
         case 0:
             koreanImage.src = '/ressources/levelTwoLearn/images/australien.png';
             flagCountry.src = '/ressources/levelTwoLearn/images/flags/australien.png';
-            speakingVersion.innerHTML = "neuseeland"
+            speakingVersion.innerHTML = "Australien"
             countryText.innerHTML = "Australien";
-            console.log("aust")
             break;
         case 1:
             koreanImage.src = '/ressources/levelTwoLearn/images/china.png';
