@@ -34,7 +34,9 @@ window.onload = function(){
     randomNumbers.sort(shuffle);
     getValueOfArrayF();
     questions();
-    console.log(randomNumbers)
+    donequestions.push("1");
+    further.disabled = true;
+    score.innerHTML = 0  + "/ 15 current score";
 }
 
 function getValueOfArrayF() {
@@ -182,6 +184,220 @@ function questions() {
             answerOneImage.src = "/ressources/levelThreeQuiz/images/answers/adidaseu.png";
             answerTwoImage.src = "/ressources/levelThreeQuiz/images/answers/bakjimin.png";
             answerThreeImage.src = "/ressources/levelThreeQuiz/images/answers/gujji.png";
+            break;
+    }
+}
+
+answerOneButton.onclick = function() {
+    check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
+    points(1);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+answerTwoButton.onclick = function() {
+    check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
+    points(2);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+answerThreeButton.onclick = function() {
+    check();
+    further.disabled = false;
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+    answerThree.disabled = true;
+    points(3);
+    score.innerHTML = scoreCount.length + "/ 15 current score";
+}
+
+function points(whichButton) {
+    if (whichButton == 1) {
+        if (getValueOfArray == 1 || getValueOfArray == 4 ||getValueOfArray == 7 || getValueOfArray == 9 || getValueOfArray == 11 || getValueOfArray == 14 || getValueOfArray == 15 || getValueOfArray == 18) {
+            scoreCount.push("1");
+        }
+    }
+    if (whichButton == 2) {
+        if (getValueOfArray == 2 || getValueOfArray == 5 || getValueOfArray == 8 || getValueOfArray == 12 || getValueOfArray == 13 || getValueOfArray == 20) {
+            scoreCount.push("1");
+        }
+    }
+    if (whichButton == 3) {
+        if (getValueOfArray == 3 || getValueOfArray == 6 || getValueOfArray == 10 || getValueOfArray == 16 || getValueOfArray == 17 || getValueOfArray == 19) {
+            scoreCount.push("1");
+        }
+    }
+    
+}
+
+function check() {
+    switch (getValueOfArray) {
+        case 1:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 2:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid green";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 3:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid green";
+            break;
+        case 4:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 5:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid green";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 6:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid green";
+            break;
+        case 7:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 8:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid green";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 9:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 10:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid green";
+            break;
+        case 11:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 12:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid green";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 13:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid green";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 14:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 15:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 16:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid green";
+            break;
+        case 17:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid green";
+            break;
+        case 18:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid green";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
+            break;
+        case 19:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerThreeImage.style.border = "4px solid green";
+            break;
+        case 20:
+            answerOneButton.style.backgroundColor = "red";
+            answerTwoButton.style.backgroundColor = "red";
+            answerThreeButton.style.backgroundColor = "red";
+            answerOneImage.style.border = "4px solid rgb(109, 4, 4)";
+            answerTwoImage.style.border = "4px solid green";
+            answerThreeImage.style.border = "4px solid rgb(109, 4, 4)";
             break;
     }
 }
