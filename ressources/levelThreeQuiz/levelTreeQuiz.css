@@ -14,7 +14,7 @@ body {
 }
 
 #germanLetter {
-    margin-top: 10vh;
+    margin-top: 8vh;
     margin-left: 10vw;
     margin-right: 10vw;
     height: 35vh;
@@ -27,6 +27,19 @@ body {
     height: 35vh;
     object-fit: cover;
     border: 4px solid black;
+}
+
+#infoField {
+    height: 5vh;
+    width: 20vw;
+    display: flex;
+    margin-left: 40vw;
+    margin-top: 3vh;
+}
+
+#infoText {
+    font-size: 50px;
+    align-self: center;
 }
 
 #koreanPossibilities {
@@ -66,7 +79,7 @@ body {
     background-color: orange;
     text-align: center;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,7 +88,7 @@ body {
     width: 10vh;
     height: 5vh;
     margin-left: 3vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
     background-color: orange;
     border-radius: 5px;
     text-align: center;
@@ -89,7 +102,7 @@ body {
     width: 20vw;
     height: 5vh;
     background-color: orange;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-left: 75vw;
     border-radius: 5px;
 }
