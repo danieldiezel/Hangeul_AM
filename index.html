@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
     <div class="menuContainer" id="menuContainer">
@@ -18,15 +19,14 @@
             <div class="levelProgress">
                  <div id="levelOneLearnBar">
                     <div id="progressBarOneLearnFull">
-                        1
                     </div>
                  </div>
             </div>
             <form action="/ressources/levelOneLearn/levelOneLearn.html">
-                <button class="levelButton" class="learnButton">Lerne das Alphabet</button>
+                <button class="levelButton" class="learnButton" >Lerne das Alphabet</button>
             </form>
-            <form action="/ressources/levelOneQuiz/levelOneQuiz.html">
-                <button class="levelButton" class="quizButton">Quizze das Alphabet</button>
+            <form name="levelOneQuizButton">
+                <button class="levelButton" class="quizButton" id="levelOneQuizButtonNotAvailable">Quizze das Alphabet</button>
             </form>
         </div>
         <div class="levelContainer">
@@ -37,17 +37,18 @@
                     </div>
                 </div>
             </div>
-            <form action="/ressources/levelTwoLearn/levelTwoLearn.html">
+            <form name="levelTwoLearnButton">
               <button class="levelButton" class="learnButton">Lerne Länder kennen</button>  
             </form>
             <form name="levelTwoQuizButton">
-                <button class="levelButton" class="quizButton" id="levelTwoQuizButtonNotAvailable">Quizze die Objekte</button>
+                <button class="levelButton" class="quizButton" id="levelTwoQuizButtonNotAvailable">Quizze die Länder</button>
             </form>
         </div>
         <div class="levelContainer">
             <h2 class="containerHeader">Level 3</h2>
-            <div id="levelTwoQuizBar" class="progressBarThree">100%</div>
-            <button id="levelThreeButton" class="quizButton">Quizze das Alphabet</button>
+            <form name="levelThreeQuizButton">
+                <button id="levelThreeButton" class="quizButton">Promi Quiz</button>
+            </form>
         </div>
         <div id="rest">
             <div id="settings">
